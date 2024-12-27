@@ -1,0 +1,11 @@
+form{
+    border: 1px solid gray;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+    background-color: linear-gradient(90deg, red ,green);
+    margin: 50px auto;
+}
+span{
+    color: red;
+}

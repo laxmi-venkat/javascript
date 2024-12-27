@@ -1,0 +1,12 @@
+p{
+    color: red;
+    width: 20%;
+    background: linear-gradient(45deg,red,black);
+    padding:20px;
+    text-align: justify;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px,0px,10px,yellowgreen;
+}

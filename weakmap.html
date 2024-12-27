@@ -1,0 +1,72 @@
+//weak map & weak set
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+
+
+</head>
+
+<body>
+
+
+    </script>
+    <!-- <script>
+        let weakmap = new WeakMap();
+        console.dir(weakmap);
+        weakmap.set({}, 100);
+        weakmap.set({}, 200);
+        console.log(weakmap);
+    </script> -->
+    <!-- <script>
+        let key1 = {};
+        let value1 = "hello";
+        weakmap.set("key1", value1)
+
+        let key2 = {};
+        let value2 = "welcxom";
+        weakmap.set("key2", value2);
+
+        console.log(weakmap);
+        console.log(weakmap.has(key2));
+        weakmap.delete(key2);
+        console.log(weakmap);
+
+    </script> -->
+    <!-- <script>
+        let weakset = new WeakSet();
+
+        let obj1 = { "key1": "Hello" }
+        weakset.add(obj1);
+        let obj2 = { "key2": "welcome" }
+        weakset.add(obj2);
+
+        let obj3 = { "key3": "bye" }
+        weakset.add(obj2);
+
+        console.log(weakset);
+        console.log(weakset.has(obj3));
+
+        weakset.delete(obj3);
+        console.log(weakset)
+
+
+    </script> -->
+    <!-- <script>
+        let arr1 = [10, 20, 30, 40, 50, 10, 30, 20];
+        console.log(new Set(arr1));
+        //duplicates to array
+        console.log([...new Set(arr1)]);
+    </script> -->
+    <script>
+        let arr1 = [10, 20, 30, 40, 50, 10, 30, 20]
+        console.log(_.uniq(arr1));
+    </script>
+</body>
+
+</html>
